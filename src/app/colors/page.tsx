@@ -27,6 +27,7 @@ export default function ColorsPage() {
           <button
             onClick={() => changeFilter(g)}
             className={classNames({ ["active"]: filter === g })}
+            key={g}
           >
             {g}
           </button>
@@ -42,6 +43,7 @@ export default function ColorsPage() {
               color={{ r: c.color.r, g: c.color.g, b: c.color.b }}
               select={() => setSelected(c.name)}
               selected={selected === c.name}
+              key={c.name}
             />
           ))}
       </main>

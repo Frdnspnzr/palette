@@ -56,8 +56,8 @@ export default function Color({
 
 function getFactor(name: string): number {
   const values = 20;
-  var sum = 0;
-  for (var i = 0; i < name.length; i++) {
+  let sum = 0;
+  for (let i = 0; i < name.length; i++) {
     sum += name.charCodeAt(i);
   }
   return (sum % values) / values;
