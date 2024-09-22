@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Charcoal Gray",
+    "color": { "r": 18, "g": 18, "b": 18 },
+    "groups": ["Black"]
+  },
+  {
+    "name": "Oxford Blue",
+    "color": { "r": 33, "g": 42, "b": 55 },
+    "groups": ["Black", "Blue"]
+  },
+  {
+    "name": "Outer Space",
+    "color": { "r": 37, "g": 37, "b": 37 },
+    "groups": ["Black"]
+  },
+  {
+    "name": "Dark Gray",
+    "color": { "r": 33, "g": 36, "b": 39 },
+    "groups": ["Black"]
+  },
+  {
+    "name": "Obsidian",
+    "color": { "r": 11, "g": 18, "b": 21 },
+    "groups": ["Black"]
+  },
+  {
+    "name": "Oil Black",
+    "color": { "r": 12, "g": 12, "b": 12 },
+    "groups": ["Black"]
+  },
+  {
+    "name": "Gunmetal",
+    "color": { "r": 29, "g": 31, "b": 33 },
+    "groups": ["Black"]
+  },
+  {
+    "name": "Smoky Black",
+    "color": { "r": 16, "g": 23, "b": 32 },
+    "groups": ["Black"]
+  },
+  {
+    "name": "Eerie Black",
+    "color": { "r": 35, "g": 32, "b": 35 },
+    "groups": ["Black"]
+  },
+  {
+    "name": "Jet",
+    "color": { "r": 42, "g": 42, "b": 42 },
+    "groups": ["Black"]
+  },
+  {
+    "name": "Midnight Blue",
+    "color": { "r": 25, "g": 25, "b": 112 },
+    "groups": ["Blue"]
+  },
+  {
+    "name": "Charleston Green",
+    "color": { "r": 33, "g": 33, "b": 36 },
+    "groups": ["Black"]
+  },
+  {
+    "name": "Snow",
+    "color": { "r": 255, "g": 250, "b": 250 },
+    "groups": ["White"]
+  },
+  {
+    "name": "Seasalt",
+    "color": { "r": 247, "g": 247, "b": 247 },
+    "groups": ["White"]
+  },
+  {
+    "name": "Ghost White",
+    "color": { "r": 248, "g": 248, "b": 255 },
+    "groups": ["White"]
+  },
+  {
+    "name": "Cosmic Latte",
+    "color": { "r": 255, "g": 248, "b": 231 },
+    "groups": ["White"]
+  },
+  {
+    "name": "Alabastine",
+    "color": { "r": 252, "g": 252, "b": 252 },
+    "groups": ["White"]
+  },
+  {
+    "name": "Maize",
+    "color": { "r": 251, "g": 236, "b": 93 },
+    "groups": ["Yellow"]
+  },
+  {
+    "name": "Cream",
+    "color": { "r": 255, "g": 253, "b": 208 },
+    "groups": ["Yellow", "White"]
+  },
+  {
+    "name": "Flax",
+    "color": { "r": 238, "g": 220, "b": 130 },
+    "groups": ["Yellow"]
+  },
+  {
+    "name": "Ukrainian Yellow",
+    "color": { "r": 255, "g": 215, "b": 0 },
+    "groups": ["Yellow"]
+  },
+  {
+    "name": "Mustard",
+    "color": { "r": 255, "g": 219, "b": 88 },
+    "groups": ["Yellow"]
+  },
+  {
+    "name": "Lemon",
+    "color": { "r": 255, "g": 247, "b": 0 },
+    "groups": ["Yellow"]
+  },
+  {
+    "name": "Laser Lemon",
+    "color": { "r": 254, "g": 254, "b": 34 },
+    "groups": ["Yellow"]
+  },
+  {
+    "name": "Golden Yellow",
+    "color": { "r": 255, "g": 223, "b": 0 },
+    "groups": ["Yellow"]
+  },
+  {
+    "name": "Saffron",
+    "color": { "r": 244, "g": 196, "b": 48 },
+    "groups": ["Yellow"]
+  },
+  {
+    "name": "Cherry Blossom",
+    "color": { "r": 255, "g": 183, "b": 197 },
+    "groups": ["Red", "Violet"]
+  },
+  {
+    "name": "Raspberry Pink",
+    "color": { "r": 226, "g": 80, "b": 155 },
+    "groups": ["Violet"]
+  },
+  {
+    "name": "Pink",
+    "color": { "r": 253, "g": 108, "b": 158 },
+    "groups": ["Violet"]
+  },
+  {
+    "name": "Light Salmon",
+    "color": { "r": 255, "g": 153, "b": 153 },
+    "groups": ["Red", "Violet"]
+  },
+  {
+    "name": "Carmine",
+    "color": { "r": 235, "g": 76, "b": 66 },
+    "groups": ["Red"]
+  },
+  {
+    "name": "Coral",
+    "color": { "r": 255, "g": 64, "b": 64 },
+    "groups": ["Red"]
+  },
+  {
+    "name": "Coquelicot",
+    "color": { "r": 255, "g": 56, "b": 0 },
+    "groups": ["Red"]
+  },
+  {
+    "name": "Scarlet",
+    "color": { "r": 255, "g": 36, "b": 0 },
+    "groups": ["Red"]
+  },
+  {
+    "name": "Crimson",
+    "color": { "r": 220, "g": 20, "b": 60 },
+    "groups": ["Red"]
+  },
+  {
+    "name": "Ruby",
+    "color": { "r": 224, "g": 17, "b": 95 },
+    "groups": ["Red", "Violet"]
+  },
+  {
+    "name": "Amaranth",
+    "color": { "r": 229, "g": 43, "b": 80 },
+    "groups": ["Red"]
+  },
+  {
+    "name": "Venethian Red",
+    "color": { "r": 200, "g": 8, "b": 21 },
+    "groups": ["Red"]
+  },
+  {
+    "name": "Rosewood",
+    "color": { "r": 101, "g": 0, "b": 11 },
+    "groups": ["Red"]
+  },
+  {
+    "name": "Imperial Purple",
+    "color": { "r": 102, "g": 2, "b": 60 },
+    "groups": ["Violet"]
+  },
+  {
+    "name": "Murple",
+    "color": { "r": 136, "g": 47, "b": 232 },
+    "groups": ["Violet"]
+  },
+  {
+    "name": "Mink",
+    "color": { "r": 231, "g": 49, "b": 202 },
+    "groups": ["Violet"]
+  },
+  {
+    "name": "Deep Pink",
+    "color": { "r": 255, "g": 20, "b": 147 },
+    "groups": ["Violet"]
+  },
+  {
+    "name": "Fuchsia Rose",
+    "color": { "r": 199, "g": 67, "b": 117 },
+    "groups": ["Violet"]
+  },
+  {
+    "name": "Dark Magenta",
+    "color": { "r": 139, "g": 0, "b": 139 },
+    "groups": ["Violet"]
+  },
+  {
+    "name": "Plum",
+    "color": { "r": 132, "g": 49, "b": 121 },
+    "groups": ["Violet"]
+  },
+  {
+    "name": "Dark Byzantium",
+    "color": { "r": 93, "g": 57, "b": 84 },
+    "groups": ["Violet"]
+  },
+  {
+    "name": "Light Cyan",
+    "color": { "r": 244, "g": 255, "b": 255 },
+    "groups": ["Blue", "White"]
+  },
+  {
+    "name": "Light Sky Blue",
+    "color": { "r": 135, "g": 196, "b": 250 },
+    "groups": ["Blue"]
+  },
+  {
+    "name": "Bright Turquoise",
+    "color": { "r": 8, "g": 232, "b": 222 },
+    "groups": ["Blue", "Green"]
+  },
+  {
+    "name": "Ukrainian Azure",
+    "color": { "r": 66, "g": 173, "b": 222 },
+    "groups": ["Blue"]
+  },
+  {
+    "name": "Denim",
+    "color": { "r": 21, "g": 96, "b": 189 },
+    "groups": ["Blue"]
+  },
+  {
+    "name": "Persian Blue",
+    "color": { "r": 28, "g": 57, "b": 187 },
+    "groups": ["Blue"]
+  },
+  {
+    "name": "Dark Azure",
+    "color": { "r": 0, "g": 56, "b": 168 },
+    "groups": ["Blue"]
+  },
+  {
+    "name": "Ultramarine",
+    "color": { "r": 18, "g": 10, "b": 143 },
+    "groups": ["Blue"]
+  },
+  {
+    "name": "Dark Electric Blue",
+    "color": { "r": 83, "g": 104, "b": 120 },
+    "groups": ["Blue", "Gray"]
+  },
+  {
+    "name": "Rose Quartz",
+    "color": { "r": 170, "g": 152, "b": 169 },
+    "groups": ["Gray"]
+  },
+  {
+    "name": "Slate",
+    "color": { "r": 112, "g": 128, "b": 144 },
+    "groups": ["Gray"]
+  },
+  {
+    "name": "Platinum",
+    "color": { "r": 229, "g": 228, "b": 226 },
+    "groups": ["Gray", "White"]
+  },
+  {
+    "name": "Silver",
+    "color": { "r": 192, "g": 192, "b": 192 },
+    "groups": ["Gray"]
+  },
+  {
+    "name": "Eigengrau",
+    "color": { "r": 14, "g": 14, "b": 23 },
+    "groups": ["Gray", "Black"]
+  },
+  {
+    "name": "Battleship Gray",
+    "color": { "r": 132, "g": 132, "b": 130 },
+    "groups": ["Gray"]
+  },
+  {
+    "name": "Pale Green",
+    "color": { "r": 152, "g": 251, "b": 152 },
+    "groups": ["Green"]
+  },
+  {
+    "name": "Chartreuse",
+    "color": { "r": 223, "g": 255, "b": 0 },
+    "groups": ["Green"]
+  },
+  {
+    "name": "Tea Green",
+    "color": { "r": 208, "g": 240, "b": 192 },
+    "groups": ["Green"]
+  },
+  {
+    "name": "Electric Lime",
+    "color": { "r": 204, "g": 255, "b": 0 },
+    "groups": ["Green"]
+  },
+  {
+    "name": "Ultra Green",
+    "color": { "r": 102, "g": 255, "b": 102 },
+    "groups": ["Green"]
+  },
+  {
+    "name": "Kelly Green",
+    "color": { "r": 76, "g": 187, "b": 23 },
+    "groups": ["Green"]
+  },
+  {
+    "name": "Emerald Green",
+    "color": { "r": 80, "g": 200, "b": 120 },
+    "groups": ["Green"]
+  },
+  {
+    "name": "Christmas Green",
+    "color": { "r": 0, "g": 153, "b": 58 },
+    "groups": ["Green"]
+  },
+  {
+    "name": "Pistachio",
+    "color": { "r": 147, "g": 197, "b": 146 },
+    "groups": ["Green"]
+  },
+  {
+    "name": "Myrtle Green",
+    "color": { "r": 49, "g": 120, "b": 115 },
+    "groups": ["Green"]
+  }
+]

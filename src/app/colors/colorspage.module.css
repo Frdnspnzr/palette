@@ -1,0 +1,9 @@
+.filter {
+  display: flex;
+  gap: var(--size-2);
+  margin: auto;
+  margin-block: var(--size-5);
+  width: var(--page-size);
+  justify-content: center;
+  flex-wrap: wrap;
+}

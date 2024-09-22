@@ -1,0 +1,118 @@
+@import "open-props/style";
+@import "open-props/normalize";
+
+:root {
+  --page-size: 1280px;
+
+  @media (width < 1300px) {
+    --page-size: 95svw
+  }
+}
+
+main {
+  max-width: var(--page-size);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-3);
+}
+
+nav {
+  max-width: var(--page-size);
+  margin: auto;
+  margin-block: var(--size-5);
+
+  ul {
+    list-style-type: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: var(--size-3);
+  }
+}
+
+button,
+.button {
+  --color-active: var(--purple-4);
+  --color-hover: var(--purple-2);
+  --color-action: var(--purple-6);
+
+  @media (prefers-color-scheme: dark) {
+    --color-active: var(--purple-8);
+    --color-hover: var(--purple-11);
+    --color-action: var(--purple-6);
+  }
+
+  @media (width < 1300px) {
+    font-size: var(--font-size-6);
+    margin: var(--size-2);
+  }
+
+  color: unset;
+  text-decoration: unset;
+
+  inline-size: min-content;
+  border-radius: var(--radius-round);
+  padding-block: var(--size-2);
+  padding-inline: var(--size-5);
+  background-color: var(--surface-2);
+
+  transition: all 500ms;
+
+  &:hover {
+    box-shadow: var(--shadow-2);
+    background-color: var(--color-hover);
+  }
+
+  &:active {
+    background-color: var(--color-action);
+    transform: scale(0.95);
+  }
+
+  &:focus {
+    outline: var(--border-size-2) solid var(--color-active);
+    outline-offset: var(--border-size-2);
+  }
+
+  &.active {
+    background-color: var(--color-active);
+  }
+}
+
+.card {
+  --padding: var(--size-3);
+  --width-max: var(--size-14);
+  --width-min: var(--size-12);
+  --height: var(--size-13);
+
+  height: var(--height);
+  flex-basis: calc(
+    var(--width-max) - calc(var(--width-max) - var(--width-min)) * var(--factor)
+  );
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  border: var(--border-size-1) solid var(--gray-2);
+  border-radius: var(--radius-3);
+
+  background-color: var(--surface-1);
+
+  padding: var(--padding);
+  position: relative;
+
+  transition: all 500ms;
+
+  &.active,
+  &.active:hover {
+    box-shadow: var(--shadow-4);
+    flex-basis: var(--size-14);
+  }
+
+  &:hover {
+    box-shadow: var(--shadow-2);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    border-color: var(--gray-8);
+  }
+}

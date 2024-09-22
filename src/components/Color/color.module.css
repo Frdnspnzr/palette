@@ -1,0 +1,16 @@
+.color {
+  background-color: var(--color);
+  color: var(--text-1);
+}
+
+.meta {
+  position: absolute;
+  right: var(--padding);
+  bottom: var(--padding);
+  color: var(--text-2);
+}
+
+.meta ul {
+  list-style-type: none;
+  text-align: end;
+}
