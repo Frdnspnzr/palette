@@ -1,0 +1,7 @@
+.card {
+  flex-basis: min-content;
+  height: unset;
+  @media (width < 1300px) {
+    flex-basis: max-content;
+  }
+}

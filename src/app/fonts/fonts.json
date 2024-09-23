@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Departure Mono",
+    "files": [
+      {
+        "name": "DepartureMono-Regular.woff2",
+        "format": "woff2",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "url": "https://departuremono.com",
+    "variants": [
+      { "name": "Suggested Size (small)", "settings": { "fontSize": "11px" } },
+      {
+        "name": "Suggested Size (big)",
+        "settings": { "fontSize": "22px", "letterSpacing": 1.5 }
+      }
+    ]
+  },
+  {
+    "name": "Josefin Slab",
+    "files": [
+      {
+        "name": "JosefinSlab-VariableFont_wght.ttf",
+        "format": "truetype",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "name": "JosefinSlab-Italic-VariableFont_wght.ttf",
+        "format": "truetype",
+        "bold": false,
+        "italic": true
+      }
+    ],
+    "url": "https://fonts.google.com/specimen/Josefin+Slab"
+  },
+  {
+    "name": "Yanone Kaffeesatz",
+    "files": [
+      {
+        "name": "YanoneKaffeesatz-Regular.otf",
+        "format": "opentype",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "name": "YanoneKaffeesatz-Bold.otf",
+        "format": "opentype",
+        "bold": true,
+        "italic": false
+      }
+    ],
+    "url": "https://www.yanone.de/fonts/kaffeesatz/"
+  }
+]

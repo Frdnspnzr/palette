@@ -1,3 +1,4 @@
+import NavigationLink from "@/components/Navigation/NavigationLink";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -14,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* <nav>
+        <nav>
           <ul>
             <li>
               <NavigationLink href="/colors">Colors</NavigationLink>
@@ -23,7 +24,7 @@ export default function RootLayout({
               <NavigationLink href="/fonts">Fonts</NavigationLink>
             </li>
           </ul>
-        </nav> */}
+        </nav>
         {children}
       </body>
     </html>

@@ -1,0 +1,54 @@
+.button {
+  --margin: var(--size-2);
+  border: var(--border-size-1) solid var(--surface-3);
+  border-radius: var(--radius-3);
+
+  background-color: var(--surface-2);
+
+  width: fit-content;
+  padding-inline: var(--size-2);
+  padding-block: var(--size-1);
+
+  font-family: var(--font-system-ui);
+
+  position: absolute;
+  right: var(--margin);
+  bottom: var(--margin);
+
+  @media (width < 1300px) {
+    position: relative;
+    right: 0;
+    bottom: 0;
+
+    font-size: var(--font-size-4);
+
+    margin: var(--margin);
+  }
+}
+
+.close {
+  --size: 2rem;
+  --margin: var(--size-3);
+  font-family: var(--font-system-ui);
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-9);
+
+  display: grid;
+  place-content: center;
+
+  padding: var(--size-1);
+  width: var(--size);
+  height: var(--size);
+  border-radius: var(-size);
+
+  position: absolute;
+  right: var(--margin);
+  top: var(--margin);
+}
+
+.dialog {
+  font-family: var(--font-system-ui);
+  @media (width < 1300px) {
+    width: 95svw;
+  }
+}
