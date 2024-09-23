@@ -19,6 +19,7 @@ export default function FontsPage() {
             files={d.files}
             url={d.url}
             variants={d.variants}
+            key={d.name}
           />
         ))}
       </main>
