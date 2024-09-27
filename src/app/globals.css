@@ -43,7 +43,10 @@ button,
     --color-hover: var(--purple-11);
     --color-action: var(--purple-6);
   }
+}
 
+button:not(.unstyled),
+.button {
   @media (width < 1300px) {
     font-size: var(--font-size-6);
     margin: var(--size-2);
@@ -70,14 +73,16 @@ button,
     transform: scale(0.95);
   }
 
-  &:focus {
-    outline: var(--border-size-2) solid var(--color-active);
-    outline-offset: var(--border-size-2);
-  }
-
   &.active {
     background-color: var(--color-active);
   }
+}
+
+button:focus-visible,
+.button:focus-visible {
+  outline: var(--border-size-2) solid var(--color-active);
+  outline-offset: var(--border-size-2);
+  transition: none;
 }
 
 .card {

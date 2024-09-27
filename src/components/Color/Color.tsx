@@ -30,8 +30,8 @@ export default function Color({
     "--text-2": light ? "var(--gray-7)" : "var(--gray-4)",
   } as React.CSSProperties;
   return (
-    <div
-      className={classNames("card", styles.color, {
+    <button
+      className={classNames("card unstyled", styles.color, {
         ["active"]: selected,
       })}
       onClick={select}
@@ -50,7 +50,7 @@ export default function Color({
           )}
         </ul>
       </div>
-    </div>
+    </button>
   );
 }
 
