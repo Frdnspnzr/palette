@@ -1,5 +1,6 @@
 "use client";
 
+import { getFactor } from "@/lib/utility";
 import chroma from "chroma-js";
 import classNames from "classnames";
 import styles from "./color.module.css";
@@ -52,13 +53,4 @@ export default function Color({
       </div>
     </button>
   );
-}
-
-function getFactor(name: string): number {
-  const values = 20;
-  let sum = 0;
-  for (let i = 0; i < name.length; i++) {
-    sum += name.charCodeAt(i);
-  }
-  return (sum % values) / values;
 }

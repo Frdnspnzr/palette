@@ -1,7 +1,18 @@
 .card {
-  flex-basis: min-content;
+  --min-size: 18rem;
+  --max-size: 22rem;
+  --f: var(--factor, 0.5);
+  --diff: calc(var(--max-size) - var(--min-size));
+  --basis: calc(var(--min-size) + var(--diff) * var(--f));
+  flex-basis: var(--basis);
   height: unset;
+
   @media (width < 1300px) {
     flex-basis: max-content;
   }
+
+}
+
+.name {
+  font-weight: unset;
 }

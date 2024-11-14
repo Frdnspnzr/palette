@@ -1,9 +1,10 @@
+import { getFactor } from "@/lib/utility";
 import classNames from "classnames";
 import Link from "next/link";
 import { CSSProperties } from "react";
 import FontExamples from "../FontExamples/FontExamples";
 import FontVariants from "../FontVariants/FontVariants";
-import style from "./font.module.css";
+import styles from "./font.module.css";
 
 interface FontProps {
   name: string;
@@ -13,6 +14,10 @@ interface FontProps {
 }
 
 export default function Font({ name, files, url, variants = [] }: FontProps) {
+  const style = {
+    fontFamily: name,
+    "--factor": getFactor(name),
+  } as React.CSSProperties;
   return (
     <>
       <style>
@@ -27,11 +32,8 @@ export default function Font({ name, files, url, variants = [] }: FontProps) {
           />
         ))}
       </style>
-      <div
-        className={classNames("card", style.card)}
-        style={{ fontFamily: name }}
-      >
-        <h2>{name}</h2>
+      <div className={classNames("card", styles.card)} style={style}>
+        <h2 className={styles.name}>{name}</h2>
         <p>
           <Link href={url}>Source</Link>
         </p>
