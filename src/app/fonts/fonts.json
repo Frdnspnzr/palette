@@ -53,5 +53,70 @@
       }
     ],
     "url": "https://www.yanone.de/fonts/kaffeesatz/"
+  },
+  {
+    "name": "Zarathustra",
+    "files": [
+      {
+        "name": "zarathustra-v01.otf",
+        "format": "opentype",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "url": "https://github.com/lorene-cn/zarathustra-typeface",
+    "variants": []
+  },
+  {
+    "name": "Beverage",
+    "files": [
+      {
+        "name": "LT_Beverage.otf",
+        "format": "opentype",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "url": "https://lyonstype4.wixsite.com/lyonstype-beta/fonts",
+    "variants": []
+  },
+  {
+    "name": "Opening Hours Mono",
+    "files": [
+      {
+        "name": "OpeningHoursMonoVF.woff2",
+        "format": "woff2",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "url": "https://github.com/opening-hours-studio/opening-hours-mono",
+    "variants": []
+  },
+  {
+    "name": "Pecita",
+    "files": [
+      {
+        "name": "Pecita.otf",
+        "format": "opentype",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "url": "https://pecita.eu/police-fr.php",
+    "variants": []
+  },
+  {
+    "name": "Absans",
+    "files": [
+      {
+        "name": "Absans-Regular.woff2",
+        "format": "woff2",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "url": "https://www.collletttivo.it/typefaces/absans",
+    "variants": []
   }
 ]
