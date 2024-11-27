@@ -118,5 +118,57 @@
     ],
     "url": "https://www.collletttivo.it/typefaces/absans",
     "variants": []
+  },
+  {
+    "name": "Melete",
+    "files": [
+      {
+        "name": "Melete-Regular.otf",
+        "format": "opentype",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "url": "https://dotcolon.net/font/melete/",
+    "variants": []
+  },
+  {
+    "name": "Rusch Gotico-Antiqua",
+    "files": [
+      {
+        "name": "Rusch-GoticoAntiqua100G.otf",
+        "format": "opentype",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "url": "https://github.com/anrt-type/GoticoAntiqua",
+    "variants": []
+  },
+  {
+    "name": "Spira Proto-Roman",
+    "files": [
+      {
+        "name": "Spira-ProtoRoman110R.otf",
+        "format": "opentype",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "url": "https://github.com/anrt-type/GoticoAntiqua",
+    "variants": []
+  },
+  {
+    "name": "Zainer Gotico-Antiqua",
+    "files": [
+      {
+        "name": "Zainer-GoticoAntiqua96G.otf",
+        "format": "opentype",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "url": "https://github.com/anrt-type/GoticoAntiqua",
+    "variants": []
   }
 ]
